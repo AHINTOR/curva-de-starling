@@ -27,7 +27,7 @@ with col1:
         hr = st.number_input("Frecuencia cardíaca (HR)", value=80)
 
 # Columna 2: Resultados
-    with col2:
+with col2:
         st.subheader("Resultados Calculados")
         
         # Cálculos basados en las ecuaciones del archivo patient_equations.py
