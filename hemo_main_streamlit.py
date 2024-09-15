@@ -36,7 +36,7 @@ with col2:
         sv = eq.sv_calc(co, hr)
 
         # Mostrar los resultados calculados debajo del gráfico
-        st.subheader("Resultados Calculados")
+        st.markdown("_*Variables estimadas*_")
         st.write(f"Gasto Cardíaco (CO): {co:.2f} L/min")
         st.write(f"Presión al final de la diástole (LVEDP): {lvedp:.2f} mmHg")
         st.write(f"Volumen Sistólico (SV): {sv:.2f} mL")
