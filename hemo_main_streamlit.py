@@ -12,7 +12,7 @@ st.write("Ingresa las siguientes variables:")
 col1, col2 = st.columns(2)
 
 # Columna 1: Datos a llenar
-    with col1:
+with col1:
         st.subheader("Datos del Paciente")
         
         # Variables interactivas con Streamlit para que el usuario ingrese los datos
