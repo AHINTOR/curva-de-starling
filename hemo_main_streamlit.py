@@ -35,6 +35,12 @@ with col2:
         lvedp = ((0.54 * eq.map_calc(sbp, dbp)) * (ef / 100)) - 2.23
         sv = eq.sv_calc(co, hr)
 
+        # Mostrar los resultados calculados debajo del gráfico
+        st.subheader("Resultados Calculados")
+        st.write(f"Gasto Cardíaco (CO): {co:.2f} L/min")
+        st.write(f"Presión al final de la diástole (LVEDP): {lvedp:.2f} mmHg")
+        st.write(f"Volumen Sistólico (SV): {sv:.2f} mL")
+
 # Función principal para generar la curva de Starling
 def main():
         x = [0, 8, 10, 15, 20, 25, 25.2, 30, 35]  # Curva normal estimada de Starling
