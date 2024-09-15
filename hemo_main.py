@@ -1,5 +1,11 @@
+import streamlit as st
 import patient_equations as eq
 import matplotlib.pyplot as plt 
+
+# App title
+st.title("Curva de Frank Starling")
+st.write("Creado por Jorge Quispe")
+st.write("Ingresa las siguiente variables:")
 
 #Variables for equations
 age = 75
