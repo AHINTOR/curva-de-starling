@@ -39,7 +39,12 @@ def main():
 
     # Mostrar el gráfico en Streamlit
     st.pyplot(fig)
-  
+# Mostrar los resultados calculados debajo del gráfico
+    st.subheader("Resultados Calculados")
+    st.write(f"Gasto Cardíaco (CO): {co:.2f} L/min")
+    st.write(f"Presión al final de la diástole (LVEDP): {lvedp:.2f} mmHg")
+    st.write(f"Volumen Sistólico (SV): {sv:.2f} mL")
+    
 # Ejecutar la aplicación
 if __name__ == "__main__":
     main()
