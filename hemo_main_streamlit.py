@@ -9,7 +9,7 @@ st.write("Adaptado por Jorge Quispe")
 st.write("Ingresa las siguientes variables:")
 
 # Dividir la app en dos columnas
-col1, col2 = st.columns([1,3])
+col1, col2 = st.columns([1,2])
 
 # Columna 1: Datos a llenar
 with col1:
@@ -34,9 +34,6 @@ with col2:
         co = eq.co_fick_calc(age, bsa, SaO2, SvO2, hgb)
         lvedp = ((0.54 * eq.map_calc(sbp, dbp)) * (ef / 100)) - 2.23
         sv = eq.sv_calc(co, hr)
-
-        # Mostrar el gráfico en Streamlit
-        st.pyplot(fig)
 
         # Mostrar los resultados calculados debajo del gráfico
         st.subheader("Resultados Calculados")
