@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Título de la aplicación
 st.title("Curva de Frank Starling")
-st.write("Creado por Jorge Quispe")
+st.write("Adaptado por Jorge Quispe")
 st.write("Ingresa las siguientes variables:")
 
 # Variables interactivas con Streamlit para que el usuario ingrese los datos
