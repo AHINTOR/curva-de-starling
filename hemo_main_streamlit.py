@@ -36,19 +36,19 @@ with col2:
         sv = eq.sv_calc(co, hr)
 
         def main():
-        x = [0, 8, 10, 15, 20, 25, 25.2, 30, 35]  # Curva normal estimada de Starling
-        y = [0, 50, 60, 80, 90, 91, 90, 88, 84]
+                x = [0, 8, 10, 15, 20, 25, 25.2, 30, 35]  # Curva normal estimada de Starling
+                y = [0, 50, 60, 80, 90, 91, 90, 88, 84]
         
-        # Crear el gráfico
-        fig, ax = plt.subplots()
-        ax.plot(x, y)
-        ax.scatter(lvedp, sv, color="red")  # Punto del paciente en la curva
-        ax.set_xlabel("LVEDP (a través de ecuación)")
-        ax.set_ylabel("Volumen Sistólico")
-        ax.set_title("Curva de Starling")
+                # Crear el gráfico
+                fig, ax = plt.subplots()
+                ax.plot(x, y)
+                ax.scatter(lvedp, sv, color="red")  # Punto del paciente en la curva
+                ax.set_xlabel("LVEDP (a través de ecuación)")
+                ax.set_ylabel("Volumen Sistólico")
+                ax.set_title("Curva de Starling")
         
-        # Mostrar el gráfico en Streamlit
-        st.pyplot(fig)
+                # Mostrar el gráfico en Streamlit
+                st.pyplot(fig)
 
         # Mostrar los resultados calculados debajo del gráfico
         st.subheader("Resultados Calculados")
