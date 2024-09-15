@@ -14,7 +14,7 @@ seccion = st.sidebar.radio("Selecciona una sección:",
 # Mostrar contenido basado en la sección seleccionada
 if seccion == "Problema":
     st.header("Problema")
-    st.write("This Python script calculates stroke volume (SV), cardiac output (CO) and left ventricular end diastolic pressure (LVEDP) and plots it on a Starling curve graph. The Starling curve represents the relationship between LVEDP and SV. The curve was generated using an array of points extrapolated from mulitple textbook sources. The starling curve is an approximation of muscle fiber shortening and elongating in response to changes in preload entering the heart. It is difficult to measure all of these values directly without invasive monitors placing a patient at risk. This python script attempts to use the least invasive testing possible and extrapolate a point along the starling curve for the patient at that time. This should help the clinician guide resusicitation measures.")
+    st.write("Teeeeeexxxt .")
 
 elif seccion == "Código":
     st.header("Código")
