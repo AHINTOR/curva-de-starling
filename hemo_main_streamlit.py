@@ -8,6 +8,9 @@ st.title("Curva de Frank Starling")
 st.write("Adaptado por Jorge Quispe")
 st.write("Ingresa las siguientes variables:")
 
+# Dividir la app en dos columnas
+col1, col2 = st.columns(2)
+
 # Columna 1: Datos a llenar
     with col1:
         st.subheader("Datos del Paciente")
