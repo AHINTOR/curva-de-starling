@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Título de la aplicación
 st.title("Curva de Frank Starling")
-st.write("Creado por Jorge Quispe")
+st.write("Modificado por Jorge Quispe")
 
 # Crear una barra lateral con las secciones
 st.sidebar.title("Navegación")
