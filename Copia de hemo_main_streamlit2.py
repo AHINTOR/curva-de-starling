@@ -66,13 +66,13 @@ with col2:
 #### LAYOUT - Sidebar
 ###########################
 
-logo_pypro = Image.open('images/image.png')
+#logo_pypro = Image.open('images/image.png')
 with st.sidebar:
-    st.image(logo_pypro)
+    #st.image(logo_pypro)
     st.title("Curva de Frank Starling")
     st.write("Adaptado por Jorge Quispe")
-    seccion = st.sidebar.radio("Selecciona una sección:", 
-                           ("Problema", "Código", "App", "Referencias"))
+    #seccion = st.sidebar.radio("Selecciona una sección:", 
+     #                      ("Problema", "Código", "App", "Referencias"))
     
 # Ejecutar la aplicación
 if __name__ == "__main__":
