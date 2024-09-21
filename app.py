@@ -38,8 +38,8 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("images/starling_rap.svg")
-st.sidebar.image("images/cfs.png",
+st.logo("images/logo_curva.png.svg")
+#st.sidebar.image("images/cfs.png",
                  caption="Curva de Starling")
 st.sidebar.markdown("Hecho con **python y streamlit** en el curso de _Cuadernos de código Python_ ❤️ by [Ahintor](https://anestesia.wiki)")
 st.divider()  # 👈 Draws a horizontal rule
