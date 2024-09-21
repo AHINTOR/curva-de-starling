@@ -33,7 +33,7 @@ pg = st.navigation(
     {
         "App": [about_page],
         "Documentación": [project_1_page, project_2_page],
-        "Hecho con python y streamlit"
+        "Hecho con python y streamlit":
     }
 )
 
