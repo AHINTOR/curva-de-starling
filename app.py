@@ -7,7 +7,7 @@ st.title("Curva de Frank Starling")
 st.markdown("_Adaptado por ***Jorge Quispe***:_")
 
 # --- PAGE SETUP ---
-about_page = st.Page(
+formula = st.Page(
     "pages/formula.py",
     title="Curva Frank Starling",
     icon=":material/monitoring:",
@@ -31,9 +31,9 @@ project_2_page = st.Page(
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
-        "App": [about_page],
+        "App": [formula],
         "Documentación": [project_1_page, project_2_page],
-        "Hecho con python y streamlit":
+        "Hecho con python y streamlit": [formula]
     }
 )
 
