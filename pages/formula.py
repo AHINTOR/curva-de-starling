@@ -6,8 +6,8 @@ st.subheader("1. Datos del Paciente")
 
 # Add sidebar:
 with st.sidebar:
-  st.markdown("# Instrucciones: #")
-  #st.divider()  # 👈 Draws a horizontal rule
+  st.divider()  # 👈 Draws a horizontal rule
+  st.markdown("# Instrucciones: #") 
   st.markdown("## Sección 1 ##")
   st.markdown("- Completar con las variables del paciente.")
   st.markdown("## Sección 2 ##")
