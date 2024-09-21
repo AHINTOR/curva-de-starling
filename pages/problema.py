@@ -16,5 +16,6 @@ st.markdown("Esta aplicación busca proporcionar una alternativa no invasiva par
 st.markdown("## Aplicación:")
 st.markdown("La aplicación está diseñada para calcular de forma automática los parámetros clave y graficar la posición del paciente en la curva de Frank-Starling, facilitando la interpretación rápida por parte de los médicos. Con estos cálculos, se puede ajustar el tratamiento del paciente con más precisión, ayudando a decidir si es necesario administrar líquidos o apoyo inotrópico. El uso de variables como la edad, la presión arterial, la saturación de oxígeno y la fracción de eyección hace que el proceso sea accesible con datos clínicos de rutina, permitiendo una mayor aplicabilidad en entornos médicos con recursos limitados.")
 st.markdown("De esta forma, la aplicación tiene un gran potencial para mejorar la atención de pacientes críticos, optimizando los recursos disponibles y reduciendo el riesgo asociado a procedimientos invasivos.")
+st.latex(\text{LVEDP} = [0.54 \times \text{MABP} \times (1 - \text{EF})] - 2.23)
 
 st.image("images/starling.png", caption="resultado de la app")
