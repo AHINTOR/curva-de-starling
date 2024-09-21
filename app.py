@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 # Título de la aplicación
 st.title("Curva de Frank Starling")
 st.markdown("_Adaptado por ***Jorge Quispe***:_")
-#st.write("Adaptado por Jorge Quispe")
-#st.write("Ingresa las siguientes variables:")
 
 # --- PAGE SETUP ---
 about_page = st.Page(
@@ -40,7 +38,7 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-#st.logo("images/FS.jpeg")
+st.logo("images/FS.jpeg")
 #st.sidebar.markdown("Made with ❤️ by [Sven](https://youtube.com/@codingisfun)")
 
 
