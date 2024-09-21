@@ -8,7 +8,7 @@ st.markdown("_Adaptado por ***Jorge Quispe***:_")
 
     st.set_page_config(
         page_title="Curva de starling",
-        page_icon=":material/show_chart"
+        page_icon=":material/show_chart:"
     )
 
 # --- PAGE SETUP ---
