@@ -33,7 +33,6 @@ pg = st.navigation(
     {
         "App": [formula],
         "Documentación": [project_1_page, project_2_page],
-        "App2": [formula],
     }
 )
 
