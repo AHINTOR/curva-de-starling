@@ -38,7 +38,7 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("images/stgarling_rap.svg")
+st.logo("images/starling_rap.svg")
 st.sidebar.markdown("Hecho con **python y streamlit** en el curso de _Cuadernos de código Python_ ❤️ by [Ahintor](https://anestesia.wiki)")
 
 
