@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.markdown("## Problemática:")
 st.markdown("En la medicina clínica, el monitoreo preciso de estos parámetros es esencial para guiar la gestión de líquidos y fármacos inotrópicos en pacientes críticos, especialmente en aquellos con insuficiencia cardíaca o problemas hemodinámicos. La curva de Frank-Starling describe cómo el corazón se adapta al aumento de volumen diastólico para optimizar el gasto cardíaco, pero la medición directa de estos parámetros a menudo requiere procedimientos invasivos como la colocación de catéteres en el corazón (catéter de arteria pulmonar, catéter venoso central), lo que puede aumentar los riesgos para el paciente.")
 
-col1, col2 = st.columns([1,1,])
+col1, col2 = st.columns([2,1])
 with col1:
         st.image("images/cfs.png", caption="Curva de Frank Starling")
 with col2:
