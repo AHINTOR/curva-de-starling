@@ -5,7 +5,11 @@ import matplotlib.pyplot as plt
 st.markdown("## Problemática:")
 st.markdown("En la medicina clínica, el monitoreo preciso de estos parámetros es esencial para guiar la gestión de líquidos y fármacos inotrópicos en pacientes críticos, especialmente en aquellos con insuficiencia cardíaca o problemas hemodinámicos. La curva de Frank-Starling describe cómo el corazón se adapta al aumento de volumen diastólico para optimizar el gasto cardíaco, pero la medición directa de estos parámetros a menudo requiere procedimientos invasivos como la colocación de catéteres en el corazón (catéter de arteria pulmonar, catéter venoso central), lo que puede aumentar los riesgos para el paciente.")
 
-st.image("images/starling_rap.svg", caption="curva de frank starling")
+col1, col2 = st.columns([1,1,])
+with col1:
+        st.image("images/cfs.png", caption="Curva de Frank Starling")
+with col2:
+        st.image("images/FS.jpeg", caption="Bucle P-V ventriculo izquierdo")
 
 st.markdown("## Justificación de la aplicación:")
 st.markdown("Esta aplicación busca proporcionar una alternativa no invasiva para calcular estos parámetros y ubicarlos en la curva de Frank-Starling, usando métodos indirectos como el cálculo del CO por el método de Fick modificado y la estimación de LVEDP con la ecuación publicada por Abd-El-Aziz. De esta manera, los clínicos podrán obtener una visión aproximada del estado hemodinámico del paciente sin necesidad de procedimientos invasivos, lo que puede reducir complicaciones y permitir una respuesta más rápida en el manejo clínico.")
