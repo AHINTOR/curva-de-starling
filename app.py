@@ -38,8 +38,8 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("images/FS.jpeg")
-#st.sidebar.markdown("Made with ❤️ by [Sven](https://youtube.com/@codingisfun)")
+st.logo("images/stgarling_rap.svg")
+st.sidebar.markdown("Hecho con **python y streamlit** en el curso de _Cuadernos de código Python_ ❤️ by [Ahintor](https://anestesia.wiki)")
 
 
 # --- RUN NAVIGATION ---
