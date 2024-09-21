@@ -33,7 +33,6 @@ pg = st.navigation(
     {
         "App": [formula],
         "Documentación": [project_1_page, project_2_page],
-        "Hecho con python y streamlit": [formula]
     }
 )
 
