@@ -29,9 +29,6 @@ project_2_page = st.Page(
     icon=":material/developer_guide:",
 )
 
-page_title = "Curva de starling",
-page_icon = ":material/show_chart:"
-
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 
