@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 st.title("Curva de Frank Starling")
 st.markdown("_Adaptado por ***Jorge Quispe***:_")
 
-st.set_page_config(
-    page_title="Curva de starling",
-    page_icon=":material/show_chart:"
-)
+#st.set_page_config(
+#    page_title="Curva de starling",
+#    page_icon=":material/show_chart:"
+#)
 
 # --- PAGE SETUP ---
 formula = st.Page(
@@ -29,6 +29,8 @@ project_2_page = st.Page(
     icon=":material/developer_guide:",
 )
 
+page_title = "Curva de starling",
+page_icon = ":material/show_chart:"
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
