@@ -21,7 +21,7 @@ st.latex(r'''
         [0.54\fracMABP\frac(1-EF)]-2.23
         ''')
 st.markdown("Para el cálculo del gasto cardiaco se usa el método de Fick, donde la VO2 depende de la edad y la superficie corporal.")
-st.latex(GC =\frac{VO_2}{C(a-v)O_2})
+st.latex("GC =\frac{VO_2}{C(a-v)O_2}")
 st.latex(r'''
     a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
     \sum_{k=0}^{n-1} ar^k =
